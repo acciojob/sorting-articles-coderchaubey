@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
         return nameA.localeCompare(nameB);
       });
 
-      const bandList = document.getElementById('band');
+      const bandList = document.getElementById('bands');
 
       sortedBands.forEach((band) => {
         const listItem = document.createElement('li');
